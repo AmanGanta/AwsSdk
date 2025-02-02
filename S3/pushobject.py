@@ -6,8 +6,8 @@ s3_client = boto3.client('s3', region_name='us-west-2')
 
 # Define variables
 bucket_name = "my-generative-ai-bucket-12345"  # Replace with your bucket name
-local_file_path = r"S3/data.txt"  # Replace with your file path
-s3_object_name = "uploaded-example.txt"  # The name to store the file as in S3
+local_file_path = r"S3/data/a.txt"  # Replace with your file path
+s3_object_name = "uploaded-example3.txt"  # The name to store the file as in S3
 
 try:
     # Upload the file
